@@ -20,7 +20,7 @@ import javax.annotation.Resource;
  */
 @Controller
 @RequestMapping("/businesses")
-public class BusinessController {
+public class BusinessesController {
 
     @Resource
     private BusinessService businessService;
